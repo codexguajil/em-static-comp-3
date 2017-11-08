@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Static-Comp-3</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header>
+    <div class="row">
+    <div class="column">
+    <div class="wrap">
+       <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
+       <label for="drawer-toggle" id="drawer-toggle-label"></label>
+     <nav id="drawer">
+      <section class="main-user">
+        <img src="images/marcel.jpg" class="profile-pic" width="90" height="90">
+        <br />
+        <h5 class="name">Marcel Proust</h5>
+      </section>
+        <ul>
+          <section class="list first-list">
+            <h5 class="drawer-header">Main</h5>
+            <li class="icon"><a href="#"><i class="fa fa-home" aria-hidden="true"></i>HOMES</a></li>
+            <li class="icon">
+            <a href="#"><i class="fa fa-wrench" aria-hidden="true"></i>JOBS</a></li>
+            <li><a href="#"><i class="fa fa-file-text-o" aria-hidden="true"></i>RESUMES</a></li>
+            <li><a href="#"><i class="fa fa-clipboard" aria-hidden="true"></i>TASKS</a></li>
+            <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>CALENDAR</a></li>
+          </section>
+          <section class="list second-list">
+            <h5 class="drawer-header">Admin</h5>
+            <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i>USERS</a></li>
+            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>LOCATIONS</a></li>
+            <li><a href="#"><i class="fa fa-connectdevelop" aria-hidden="true"></i>WORKFLOWS</a></li>
+            <li><a href="#"><i class="fa fa-comments" aria-hidden="true"></i>JOB BOARDS</a></li>
+            <li><a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i>SOCIAL</a></li>
+          </section>
+          <section class="list third-list">
+            <h5 class="drawer-header">Categories</h5>
+            <li><a href="#"><i class="fa fa-check-square-o" aria-hidden="true"></i>Administrative</a></li>
+            <li><a href="#"><i class="fa fa-square-o blue" aria-hidden="true"></i>Design</a></li>
+            <li><a href="#"><i class="fa fa-square-o red" aria-hidden="true"></i>Executive</a></li>
+            <li><a href="#"><i class="fa fa-square-o green" aria-hidden="true"></i>Human Resources</a></li>
+          </section>
+        </ul>
+     </nav>
+    </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="column">
+    <div class="search">
+      <input type="text" class="search-term" placeholder="Search for a job, task, or resume">
+      <button type="submit" class="nav-but search-button"><i class="fa fa-user-plus" aria-hidden="true"></i>
+      <button type="submit" class="nav-but notes-button"><i class="fa fa-list-alt" aria-hidden="true"></i>
+      <button type="submit" class="nav-but grid-button"><i class="fa fa-th" aria-hidden="true"></i>
+    </div>
+      <section class="title-and-subtitle">
+        <h1 class="title">Customer Service Representative</h1>
+        <div class="subhead-link">
+        <h5 class="sub-head">San Francisco, Ca  -  </h5>
+        <a href="#" class="preview">Preview this post</a>
+        </div>
+      </section>
+      <section class="page-switch-buttons">
+        <h4 class="summary">Summary</h4>
+        <h4>Applicants</h4>
+        <h4>Job Board</h4>
+        <h4>Interviews</h4>
+        <h4>Activity</h4>
+        <h4>Broadcast</h4>
+        <h4>Notifications</h4>
+      </section>
+    </div>
+    </div>
+</header>
+  <article class="page">
+   <div class="row">
+   <div class="column">
+    <section class="graphs">
+      <div class="donuts-and-button">
+      <div class="donuts">
+      <div class="donut-container" style="background: #9C0;">
+      <div class="donut-inner">
+        <div class="donut-label"><h1 class="donut-number">3,154</h1> INTERVIEWS</div>
+      </div>
+      </div>
+      <div class="donut-container" style="background: #06BEBC;">
+      <div class="donut-inner">
+        <div class="donut-label"><h1 class="donut-number">1,546</h1> APPLICANTS</div>
+      </div>
+      </div>
+      <div class="donut-container" style="background: #AE5CA8;">
+      <div class="donut-inner">
+        <div class="donut-label"><h1 class="donut-number">912</h1> FORWARDS</div>
+      </div>
+      </div>
+      </div>
+      <button class="donut-button">TOTALS - Out of 5,231 Views</button>
+      </div>
+      <div class="bar-and-button">
+      <img class ="bar-graph" src="images/bar-graph-8.png" width="500" height="250">
+      <button class="bar-button">APPLICANTS/DAY</button>
+      </div>
+    </section>
+   </div>
+   </div>
+  <div class="row">
+  <div class="column">
+    <section class="bottom-half">
+     <section class="description">
+      <h4 class="job-description">JOB DESCRIPTION</h4>
+     <section class="description-content">
+      <h5>POSITION TITLE<span>Customer Service Representative</span></h5>
+      <h5>LOCATION<span>San Francisco, Ca</span></h5>
+      <h5>EMPLOYMENT TYPE<span>Full-Time</span></h5>
+      <h5>EXPERIENCE<span>Mid-Level</span></h5>
+      <h5>STATUS<span>Open</span></h5>
+      <h5>DESCRIPTION<span>The Customer Service Representative is responsible for interacting with and providing quality assistance to all radicle customers, responsible for keeping up-to-date on the various produce shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich.</span></h5>
+      <h5>HIRING LEAD</h5>
+      <h5>APPROVED SALARY</h5>
+     </section>
+    </section>
+  <section class="bottom-half-right">
+    <section class="social-media">
+      <div class="social facebook">Post to Facebook</div>
+      <div class="social twitter">Tweet this Job</div>
+      <div class="social linkedin">Post to LinkedIn</div>
+    </section>
+    <section class="copy-paste">
+    <section class="bottom-right link-job">
+      <div class="link-text"><h3><i class="fa fa-globe" aria-hidden="true"></i> Link to this Job</h3><p>Delectet utrum breviter verum Ornatum antipatrum futurove Numeris. Tation insipientiam</p> <input type="text" class="social-input" placeholder="http://loremipsum.com/its-a-url.com"><button class="copy">Copy</button></div>
+    </section>
+    <section class="bottom-right button-widget">
+      <div class="link-text"><h3><i class="fa fa-plus-circle" aria-hidden="true"></i> Use the Button Widget</h3><p>hello my name is Delectet utrum breviter verum Ornatum antipatrum futurove Numeris. Tation insipientiam</p><input type="text" class="social-input" placeholder="<script type='text/javascript/xoxo/this-is-a-js-document-url"><button class="copy">Copy</button> </div>
+    </section>
+    <section class="bottom-right upload-resume">
+      <div class="link-text"><h3><i class="fa fa-paper-plane" aria-hidden="true"></i> Upload Resumes by Email</h3><p>Delectet utrum breviter verum Ornatum antipatrum futurove Numeris. Tation insipientiam videbitur</p><input type="text" class="social-input upload" placeholder="tomtizzy@gmail.com"> </div>
+    </section>
+    </section>
+  </section>
+  </div>
+  </div>
+   </section>
+  </article>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
